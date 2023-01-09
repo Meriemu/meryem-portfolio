@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import axios from 'axios';
 
 const ContactMe = () => {
-  const [theName, setName] = useState("");
-  const [theMail, setMail] = useState("");
-  const [TheMsg, setMsg] = useState("");
+  const [name, setName] = useState("");
+  const [email, setMail] = useState("");
+  const [message, setMsg] = useState("");
 
   const onNameChange = (event) => {
     setName(event.target.value);
@@ -18,27 +18,45 @@ const ContactMe = () => {
     setMsg(event.target.value);
     // console.log("---mng", event.target.value);
   };
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = { theName, theMail, TheMsg };
-    axios.post( "http://localhost:3000/meryem-portfolio-Reactjs/send", data )
-      .then((response)=>{
-        console.log(response.data);
-      // if (response.data.status === 'success') {
-      //   alert("Message Sent.");
-      //   resetForm()
-      // } else if(response.data.status === 'fail') {
-      //   alert("Message failed to send.")
-      // }
-    })
-    console.log("hhh");
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   const data = { name, email, message };
+  //   axios({
+  //     method: "POST",
+  //     url: "http://localhost:3000/meryem-portfolio-Reactjs/send",
+  //     data
+  //   })
+  //     .then((response)=>{
+  //       console.log(".....", response.data);
+  //     // if (response.data.status === 'success') {
+  //     //   alert("Message Sent.");
+  //     //   resetForm()
+  //     // } else if(response.data.status === 'fail') {
+  //     //   alert("Message failed to send.")
+  //     // }
+  //   }).catch(function (error) {
+  //     console.log("CATCH ERROR", error.response);
+  //   });
+  // };
 
-  const resetForm = () =>{
-    setName('');
-    setMail('');
-    setMsg('');
-  }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+      // const data = { name, email, message };
+      await axios.post('https://meriemu.github.io/meryem-portfolio-Reactjs/send', {
+      name, email, message
+     })
+     .then(function (response) {
+       console.log(response);
+     })
+     .catch(function (error) {
+       console.log(error);
+     });
+ };
+  // const resetForm = () =>{
+  //   setName('');
+  //   setMail('');
+  //   setMsg('');
+  // }
   return (
     <div className="portfolio__contact">
       <form
@@ -52,7 +70,7 @@ const ContactMe = () => {
           <input
             type="text"
             className="form-control"
-            value={theName}
+            value={name}
             onChange={onNameChange}
           />
         </div>
@@ -62,7 +80,7 @@ const ContactMe = () => {
             type="email"
             className="form-control"
             aria-describedby="emailHelp"
-            value={theMail}
+            value={email}
             onChange={onEmailChange}
           />
         </div>
@@ -71,7 +89,7 @@ const ContactMe = () => {
           <textarea
             className="form-control"
             rows="5"
-            value={TheMsg}
+            value={message}
             onChange={onMessageChange}
           ></textarea>
         </div>
