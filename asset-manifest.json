@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Dark-mode-Reactjs/static/css/main.8c9fe49f.css",
-    "main.js": "/Dark-mode-Reactjs/static/js/main.04c8740a.js",
-    "static/media/lvmhSlider.png": "/Dark-mode-Reactjs/static/media/lvmhSlider.44bd97d2ac4895976304.png",
-    "static/media/ecommerceApi.png": "/Dark-mode-Reactjs/static/media/ecommerceApi.28a310925217f54029aa.png",
-    "static/media/darkModeReact.png": "/Dark-mode-Reactjs/static/media/darkModeReact.694b6c5b40d22cb3c981.png",
-    "static/media/calculatorTheme.png": "/Dark-mode-Reactjs/static/media/calculatorTheme.22b5f8ef802ed9e248a6.png",
-    "static/media/adviceGenerator.png": "/Dark-mode-Reactjs/static/media/adviceGenerator.5523623f5db451273a6c.png",
-    "static/media/PhotoMeryem.jpeg": "/Dark-mode-Reactjs/static/media/PhotoMeryem.7ef8820abe939aa8fac9.jpeg",
-    "static/media/tikTakToe.png": "/Dark-mode-Reactjs/static/media/tikTakToe.18e0604d9df7faba4dc4.png",
-    "static/media/codewarsIcon.svg": "/Dark-mode-Reactjs/static/media/codewarsIcon.ae70542faad07e2ab23b27a1df187fa1.svg",
-    "static/media/linkedinIcon.svg": "/Dark-mode-Reactjs/static/media/linkedinIcon.4503d08604f0ed72143917d10afdbff3.svg",
-    "static/media/githubIcon.svg": "/Dark-mode-Reactjs/static/media/githubIcon.29266fb9a2caad5cae6599c559f62e35.svg",
-    "index.html": "/Dark-mode-Reactjs/index.html",
-    "main.8c9fe49f.css.map": "/Dark-mode-Reactjs/static/css/main.8c9fe49f.css.map",
-    "main.04c8740a.js.map": "/Dark-mode-Reactjs/static/js/main.04c8740a.js.map"
+    "main.css": "/meryem-portfolio-Reactjs/static/css/main.e35805bd.css",
+    "main.js": "/meryem-portfolio-Reactjs/static/js/main.c546fc92.js",
+    "static/media/lvmhSlider.png": "/meryem-portfolio-Reactjs/static/media/lvmhSlider.44bd97d2ac4895976304.png",
+    "static/media/ecommerceApi.png": "/meryem-portfolio-Reactjs/static/media/ecommerceApi.28a310925217f54029aa.png",
+    "static/media/darkModeReact.png": "/meryem-portfolio-Reactjs/static/media/darkModeReact.694b6c5b40d22cb3c981.png",
+    "static/media/calculatorTheme.png": "/meryem-portfolio-Reactjs/static/media/calculatorTheme.22b5f8ef802ed9e248a6.png",
+    "static/media/adviceGenerator.png": "/meryem-portfolio-Reactjs/static/media/adviceGenerator.5523623f5db451273a6c.png",
+    "static/media/PhotoMeryem.jpeg": "/meryem-portfolio-Reactjs/static/media/PhotoMeryem.7ef8820abe939aa8fac9.jpeg",
+    "static/media/tikTakToe.png": "/meryem-portfolio-Reactjs/static/media/tikTakToe.18e0604d9df7faba4dc4.png",
+    "static/media/codewarsIcon.svg": "/meryem-portfolio-Reactjs/static/media/codewarsIcon.ae70542faad07e2ab23b27a1df187fa1.svg",
+    "static/media/linkedinIcon.svg": "/meryem-portfolio-Reactjs/static/media/linkedinIcon.4503d08604f0ed72143917d10afdbff3.svg",
+    "static/media/githubIcon.svg": "/meryem-portfolio-Reactjs/static/media/githubIcon.29266fb9a2caad5cae6599c559f62e35.svg",
+    "index.html": "/meryem-portfolio-Reactjs/index.html",
+    "main.e35805bd.css.map": "/meryem-portfolio-Reactjs/static/css/main.e35805bd.css.map",
+    "main.c546fc92.js.map": "/meryem-portfolio-Reactjs/static/js/main.c546fc92.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c9fe49f.css",
-    "static/js/main.04c8740a.js"
+    "static/css/main.e35805bd.css",
+    "static/js/main.c546fc92.js"
   ]
 }
