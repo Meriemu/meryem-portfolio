@@ -1,0 +1,41 @@
+// typography.scss -- Typography related styles
+//
+
+// ::-webkit-input-placeholder { color: $placeholder; font-style:italic; }
+// :-moz-placeholder { color: $placeholder; font-style:italic; }
+// ::-moz-placeholder { color: $placeholder; opacity: 1; font-style:italic; }
+// :-ms-input-placeholder { color: $placeholder; font-style:italic; }
+
+::-moz-selection {
+    color: $white;
+    background-color: $body-color;
+}
+
+::selection {
+    color: $white;
+    background-color: $body-color;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+em {
+    font-style: italic;
+}
+
+h1, .h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 9rem;
+        line-height: 7.5rem;
+    }
+}
+
+h2, .h2 {
+    @include media-breakpoint-up(lg) {
+        font-size: 3.5rem;
+    }
+}
