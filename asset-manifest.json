@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/meryem-portfolio-Reactjs/static/css/main.ef2bfeaf.css",
-    "main.js": "/meryem-portfolio-Reactjs/static/js/main.e30cefba.js",
+    "main.js": "/meryem-portfolio-Reactjs/static/js/main.6dd51693.js",
     "static/media/lvmhSlider.png": "/meryem-portfolio-Reactjs/static/media/lvmhSlider.44bd97d2ac4895976304.png",
     "static/media/ecommerceApi.png": "/meryem-portfolio-Reactjs/static/media/ecommerceApi.28a310925217f54029aa.png",
     "static/media/darkModeReact.png": "/meryem-portfolio-Reactjs/static/media/darkModeReact.694b6c5b40d22cb3c981.png",
@@ -14,10 +14,10 @@
     "static/media/githubIcon.svg": "/meryem-portfolio-Reactjs/static/media/githubIcon.29266fb9a2caad5cae6599c559f62e35.svg",
     "index.html": "/meryem-portfolio-Reactjs/index.html",
     "main.ef2bfeaf.css.map": "/meryem-portfolio-Reactjs/static/css/main.ef2bfeaf.css.map",
-    "main.e30cefba.js.map": "/meryem-portfolio-Reactjs/static/js/main.e30cefba.js.map"
+    "main.6dd51693.js.map": "/meryem-portfolio-Reactjs/static/js/main.6dd51693.js.map"
   },
   "entrypoints": [
     "static/css/main.ef2bfeaf.css",
-    "static/js/main.e30cefba.js"
+    "static/js/main.6dd51693.js"
   ]
 }
