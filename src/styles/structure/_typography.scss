@@ -35,7 +35,9 @@ h1, .h1 {
 }
 
 h2, .h2 {
+    font-size: 3.5rem;
+
     @include media-breakpoint-up(lg) {
-        font-size: 3.5rem;
+        font-size: 6.5rem;
     }
 }

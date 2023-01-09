@@ -2,6 +2,7 @@ import './styles/style.scss';
 import Banner from './components/Banner';
 import Coding from './components/Coding';
 import Projects from './components/Projects';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Banner />
         <Coding />
         <Projects />
+        <ContactMe />
       </div>
 
     </div>
