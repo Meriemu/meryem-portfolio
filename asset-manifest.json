@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meryem-portfolio-Reactjs/static/css/main.0dc02b01.css",
-    "main.js": "/meryem-portfolio-Reactjs/static/js/main.f5a9f388.js",
+    "main.css": "/meryem-portfolio-Reactjs/static/css/main.d588fab3.css",
+    "main.js": "/meryem-portfolio-Reactjs/static/js/main.bc7e1b1c.js",
     "static/media/lvmhSlider.png": "/meryem-portfolio-Reactjs/static/media/lvmhSlider.44bd97d2ac4895976304.png",
     "static/media/personnage_meryem_2.png": "/meryem-portfolio-Reactjs/static/media/personnage_meryem_2.980b2eab400370e2f135.png",
     "static/media/personnage_meryem_4.png": "/meryem-portfolio-Reactjs/static/media/personnage_meryem_4.b8d2f42e12ccefde30f8.png",
@@ -19,11 +19,11 @@
     "static/media/codewarsIcon.svg": "/meryem-portfolio-Reactjs/static/media/codewarsIcon.0f73ac0240bd62016c0095a7d88926cb.svg",
     "static/media/githubIcon.svg": "/meryem-portfolio-Reactjs/static/media/githubIcon.29266fb9a2caad5cae6599c559f62e35.svg",
     "index.html": "/meryem-portfolio-Reactjs/index.html",
-    "main.0dc02b01.css.map": "/meryem-portfolio-Reactjs/static/css/main.0dc02b01.css.map",
-    "main.f5a9f388.js.map": "/meryem-portfolio-Reactjs/static/js/main.f5a9f388.js.map"
+    "main.d588fab3.css.map": "/meryem-portfolio-Reactjs/static/css/main.d588fab3.css.map",
+    "main.bc7e1b1c.js.map": "/meryem-portfolio-Reactjs/static/js/main.bc7e1b1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dc02b01.css",
-    "static/js/main.f5a9f388.js"
+    "static/css/main.d588fab3.css",
+    "static/js/main.bc7e1b1c.js"
   ]
 }
