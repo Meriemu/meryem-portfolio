@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Meriemu.github.io/meryem-portfolio-Reactjs",
+  "homepage": "https://Meriemu.github.io/meryem-portfolio",
   "name": "meryem-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -52,12 +52,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Meriemu/meryem-portfolio-Reactjs.git"
+    "url": "git+https://github.com/Meriemu/meryem-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Meriemu/meryem-portfolio-Reactjs/issues"
+    "url": "https://github.com/Meriemu/meryem-portfolio/issues"
   }
 }

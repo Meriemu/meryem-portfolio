@@ -2,9 +2,12 @@ import React from "react";
 import Calculator from "../images/calculatorTheme.png";
 import AdviceGenerator from "../images/adviceGenerator.png";
 import EcommerceApiNextjs from "../images/ecommerceApi.png";
-import LvmhSlider from "../images/lvmhSlider.png";
+import reactiveCreditCard from "../images/reactive-creditCard.png";
 import TikTakToe from "../images/tikTakToe.png";
 import DarkModeReact from "../images/darkModeReact.png";
+
+import Weather from "../images/Weather.png";
+import ConvertToBTC from "../images/convertToBTC.png";
 
 import GithubIcon from "../images/githubIcon.svg";
 const Projects = () => {
@@ -64,6 +67,7 @@ const Projects = () => {
                 <div className="portfolio__projects--tag">
                   <span>html /</span>
                   <span>css /</span>
+                  <span>API /</span>
                   <span>React</span>
                 </div>
                 <a
@@ -91,6 +95,7 @@ const Projects = () => {
                 <div className="portfolio__projects--tag">
                   <span>html /</span>
                   <span>css /</span>
+                  <span>API /</span>
                   <span>React /</span>
                   <span>Nextjs</span>
                 </div>
@@ -105,12 +110,12 @@ const Projects = () => {
 
             <div
               className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url(" + LvmhSlider + ")" }}
+              style={{ backgroundImage: "url(" + reactiveCreditCard + ")" }}
             >
               <div className="overlay"></div>
               <div className="portfolio__Projects--titreBox text text-center p-4">
                 <h3>
-                  <a href="https://meriemu.github.io/TestCaseLvmh/">
+                  <a href="https://meriemu.github.io/Reactive-Card-Reactjs/">
                     Lvmh Slider
                   </a>
                 </h3>
@@ -121,7 +126,7 @@ const Projects = () => {
                   <span>React</span>
                 </div>
                 <a
-                  href="https://github.com/Meriemu/TestCaseLvmh"
+                  href="https://github.com/Meriemu/Reactive-Card-Reactjs"
                   className="portfolio__Projects--github"
                 >
                   <img src={GithubIcon} alt="" />
@@ -184,6 +189,60 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div
+              className="project img portfolio-animate d-flex justify-content-center align-items-center"
+              style={{ backgroundImage: "url(" + ConvertToBTC + ")" }}
+            >
+              <div className="overlay"></div>
+              <div className="portfolio__Projects--titreBox text text-center p-4">
+                <h3>
+                  <a href="https://meriemu.github.io/Convert-bitcoin-to-euro-Reactjs/">
+                    BTC To EURO (AI)
+                  </a>
+                </h3>
+                <div className="portfolio__projects--tag">
+                  <span>html /</span>
+                  <span>css /</span>
+                  <span>Js /</span>
+                  <span>React /</span>
+                  <span>AI</span>
+                </div>
+                <a
+                  href="https://github.com/Meriemu/Convert-bitcoin-to-euro-Reactjs"
+                  className="portfolio__Projects--github"
+                >
+                  <img src={GithubIcon} alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-8">
+            <div
+              className="project img portfolio-animate d-flex justify-content-center align-items-center"
+              style={{ backgroundImage: "url(" + Weather + ")" }}
+            >
+              <div className="overlay"></div>
+              <div className="portfolio__Projects--titreBox text text-center p-4">
+                <h3>
+                  <a href="https://meriemu.github.io/Weather/">Weather</a>
+                </h3>
+                <div className="portfolio__projects--tag">
+                  <span>html /</span>
+                  <span>css /</span>
+                  <span>API /</span>
+                  <span>React</span>
+                </div>
+                <a
+                  href="https://github.com/Meriemu/Weather"
+                  className="portfolio__Projects--github"
+                >
+                  <img src={GithubIcon} alt="" />
+                </a>
               </div>
             </div>
           </div>
