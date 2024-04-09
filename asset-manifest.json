@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/meryem-portfolio-Reactjs/static/css/main.177df073.css",
-    "main.js": "/meryem-portfolio-Reactjs/static/js/main.57f1ea44.js",
-    "static/media/lvmhSlider.png": "/meryem-portfolio-Reactjs/static/media/lvmhSlider.44bd97d2ac4895976304.png",
+    "main.js": "/meryem-portfolio-Reactjs/static/js/main.48121950.js",
     "static/media/personnage_meryem_2.png": "/meryem-portfolio-Reactjs/static/media/personnage_meryem_2.980b2eab400370e2f135.png",
     "static/media/personnage_meryem_4.png": "/meryem-portfolio-Reactjs/static/media/personnage_meryem_4.b8d2f42e12ccefde30f8.png",
     "static/media/icomoon.svg?6tt51o": "/meryem-portfolio-Reactjs/static/media/icomoon.9cc47145c3e61b03d8b8.svg",
     "static/media/personnage_meryem_1.png": "/meryem-portfolio-Reactjs/static/media/personnage_meryem_1.158340517b55ffcfc98a.png",
+    "static/media/convertToBTC.png": "/meryem-portfolio-Reactjs/static/media/convertToBTC.4e65258c129ef3c33bc5.png",
     "static/media/ecommerceApi.png": "/meryem-portfolio-Reactjs/static/media/ecommerceApi.28a310925217f54029aa.png",
+    "static/media/reactive-creditCard.png": "/meryem-portfolio-Reactjs/static/media/reactive-creditCard.038af87d18f76057519d.png",
     "static/media/icomoon.eot?6tt51o": "/meryem-portfolio-Reactjs/static/media/icomoon.f76c54c12541e67c3ab1.eot",
     "static/media/icomoon.woff?6tt51o": "/meryem-portfolio-Reactjs/static/media/icomoon.1b3e525e9b8ab061f068.woff",
     "static/media/icomoon.ttf?6tt51o": "/meryem-portfolio-Reactjs/static/media/icomoon.31964debf8ad35e86c51.ttf",
+    "static/media/Weather.png": "/meryem-portfolio-Reactjs/static/media/Weather.2f74563fc4f6aa059797.png",
     "static/media/enveloppe_2.jpeg": "/meryem-portfolio-Reactjs/static/media/enveloppe_2.72de6c69c962d18e7c37.jpeg",
     "static/media/darkModeReact.png": "/meryem-portfolio-Reactjs/static/media/darkModeReact.694b6c5b40d22cb3c981.png",
     "static/media/calculatorTheme.png": "/meryem-portfolio-Reactjs/static/media/calculatorTheme.22b5f8ef802ed9e248a6.png",
@@ -20,10 +22,10 @@
     "static/media/githubIcon.svg": "/meryem-portfolio-Reactjs/static/media/githubIcon.29266fb9a2caad5cae6599c559f62e35.svg",
     "index.html": "/meryem-portfolio-Reactjs/index.html",
     "main.177df073.css.map": "/meryem-portfolio-Reactjs/static/css/main.177df073.css.map",
-    "main.57f1ea44.js.map": "/meryem-portfolio-Reactjs/static/js/main.57f1ea44.js.map"
+    "main.48121950.js.map": "/meryem-portfolio-Reactjs/static/js/main.48121950.js.map"
   },
   "entrypoints": [
     "static/css/main.177df073.css",
-    "static/js/main.57f1ea44.js"
+    "static/js/main.48121950.js"
   ]
 }
