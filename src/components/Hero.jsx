@@ -59,13 +59,7 @@ const Hero = () => {
                   className="row d-md-flex no-gutters slider-text align-items-center justify-content-end"
                   data-scrollax-parent="true"
                 >
-                  <div
-                    className="one-third js-fullheight order-md-last img"
-                    style={{
-                      //   backgroundColor: "red"
-                      backgroundImage: "url(../images/bg_1.png)",
-                    }}
-                  >
+                  <div className="one-third js-fullheight order-md-last img">
                     <img alt="" className="img-circle" src={val.img} />
                     <div className="overlay"></div>
                   </div>

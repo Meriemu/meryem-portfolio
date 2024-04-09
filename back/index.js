@@ -29,7 +29,7 @@ router.post("/send", (req, res, next) => {
   var mail = {
     from: name,
     to: "me.achemlal@gmail.com",
-    subject: "🎉 Meryem, tu as un message depuis ton Portfolio ! 🎉",
+    subject: "🎉 Meryem, tu as reçu un message depuis ton Portfolio ! 🎉",
     text: content,
   };
 

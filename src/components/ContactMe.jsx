@@ -6,6 +6,7 @@ const ContactMe = () => {
   const [name, setName] = useState("");
   const [email, setMail] = useState("");
   const [message, setMsg] = useState("");
+  const [success, setSuccess] = useState(false);
 
   const onNameChange = (event) => {
     setName(event.target.value);
@@ -21,13 +22,19 @@ const ContactMe = () => {
     e.preventDefault();
     // const data = { name, email, message };
     await axios
-      .post("https://meriemu.github.io/meryem-portfolio-Reactjs/send", {
+      .post("http://localhost:3001/send", {
         name,
         email,
         message,
       })
       .then(function (response) {
-        console.log(response);
+        if (response.data.status === "success") {
+          console.log(response);
+          setSuccess(true);
+          setTimeout(() => {
+            setSuccess(false);
+          }, 3000);
+        }
       })
       .catch(function (error) {
         console.log(error);
@@ -146,6 +153,12 @@ const ContactMe = () => {
           </div>
         </div>
       </div>
+
+      {success && (
+        <div className=" fade show contact-msgSent alert alert-success">
+          Message sent ! 📨
+        </div>
+      )}
     </section>
   );
 };

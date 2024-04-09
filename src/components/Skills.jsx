@@ -17,7 +17,11 @@ const Skills = () => {
         <div className="row">
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>HTML5</h3>
+              <div className="progress-infos">
+                <h3>HTML5</h3>
+                <span>95%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-3"
@@ -34,7 +38,11 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>CSS3</h3>
+              <div className="progress-infos">
+                <h3>CSS3</h3>
+                <span>90%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-4"
@@ -51,7 +59,11 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>SASS</h3>
+              <div className="progress-infos">
+                <h3>SASS</h3>
+                <span>80%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-4"
@@ -68,7 +80,11 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>Bootstrap</h3>
+              <div className="progress-infos">
+                <h3>Bootstrap</h3>
+                <span>80%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-4"
@@ -85,7 +101,11 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>Javascript/jQuery</h3>
+              <div className="progress-infos">
+                <h3>Javascript/jQuery</h3>
+                <span>70%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-2"
@@ -102,7 +122,11 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>React</h3>
+              <div className="progress-infos">
+                <h3>React</h3>
+                <span>40%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-5"
@@ -119,7 +143,11 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>Figma</h3>
+              <div className="progress-infos">
+                <h3>Figma</h3>
+                <span>50%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-1"
@@ -136,7 +164,11 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>Photoshop</h3>
+              <div className="progress-infos">
+                <h3>Photoshop</h3>
+                <span>50%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-1"
@@ -153,7 +185,11 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
-              <h3>Trello/Tracker/Jira</h3>
+              <div className="progress-infos">
+                <h3>Trello/Tracker/Jira</h3>
+                <span>60%</span>
+              </div>
+
               <div className="progress">
                 <div
                   className="progress-bar color-1"
@@ -163,6 +199,7 @@ const Skills = () => {
                   aria-valuemax="100"
                   style={{ width: "60%" }}
                 >
+                  {" "}
                   <span>60%</span>
                 </div>
               </div>

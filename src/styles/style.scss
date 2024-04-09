@@ -870,6 +870,22 @@ h5,
     font-weight: 500;
   }
 }
+.progress-infos {
+  display: flex;
+  align-items: baseline;
+
+  span {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: $white;
+  }
+  @include media-breakpoint-up(md) {
+    span {
+      display: none;
+    }
+  }
+}
 //PROGRESS BAR
 .progress {
   height: 10px;
@@ -899,12 +915,17 @@ h5,
     opacity: 0;
   }
   span {
+    display: none;
     position: absolute;
     top: -38px;
-    right: 0;
+    right: -15px;
     font-size: 20px;
     font-weight: 400;
     color: $white;
+
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
   }
 }
 
@@ -1391,6 +1412,14 @@ textarea.form-control {
         width: 100%;
       }
     }
+  }
+
+  .contact-msgSent {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
   }
 }
 .block-9 {
