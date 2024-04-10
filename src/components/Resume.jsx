@@ -25,19 +25,17 @@ const Resume = () => {
           </div>
           <div className="col-md-6  portfolio-animate">
             <div className="resume-wrap">
-              <span className="date">2015-2016</span>
-              <h2>Animator of Information Technology and the Internet</h2>
-              <span className="position">IUT Jean Monnet Saint Etienne</span>
-            </div>
-          </div>
-          {/* </div>
-        <div className="row col--eq-height"> */}
-          <div className="col-md-6  portfolio-animate">
-            <div className="resume-wrap">
               <span className="date">2017-2018</span>
               <h2>Digital Project Manager </h2>
               <span className="position">Digital School Of Paris Paris</span>
               <p className="mt-4">Master's degree - 1</p>
+            </div>
+          </div>
+          <div className="col-md-6  portfolio-animate">
+            <div className="resume-wrap">
+              <span className="date">2015-2016</span>
+              <h2>Animator of Information Technology and the Internet</h2>
+              <span className="position">IUT Jean Monnet Saint Etienne</span>
             </div>
           </div>
           <div className="col-md-6  portfolio-animate">
@@ -54,7 +52,7 @@ const Resume = () => {
           <div className="col-md-6 text-center portfolio-animate">
             <p>
               <a
-                href="/En-CV_2024-04-03_Meryem_ACHEMLAL.pdf"
+                href="https://meriemu.github.io/meryem-portfolio/En-CV_2024-04-03_Meryem_ACHEMLAL.pdf"
                 download="CV_Meryem_ACHEMLAL.pdf"
                 className="btn btn-primary py-4 px-5"
               >

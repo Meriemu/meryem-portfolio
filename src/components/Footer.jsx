@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import CodewarsIcon from "../images/codewarsIcon.svg";
 const Footer = () => {
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    // Afficher ou masquer le bouton lorsque l'utilisateur fait défiler la page
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 300) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <footer className="portfolio-footer portfolio-section">
       <div className="container">
@@ -84,6 +106,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        {scroll && (
+          <button className="scroll-btn icon-hand-o-up" onClick={scrollToTop}>
+            {/* <button className="scroll-btn icon-arrow-up" onClick={scrollToTop}>  */}
+          </button>
+        )}
       </div>
     </footer>
   );
