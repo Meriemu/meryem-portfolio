@@ -1059,6 +1059,10 @@ h5,
   &:active {
     border-color: $black;
   }
+
+  &::placeholder {
+    color: #ccc;
+  }
 }
 textarea.form-control {
   height: inherit !important;

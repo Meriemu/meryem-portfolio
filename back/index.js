@@ -3,6 +3,7 @@ require("dotenv").config();
 var router = express.Router();
 var nodemailer = require("nodemailer");
 var cors = require("cors");
+const app = express();
 
 var transport = {
   host: "smtp.gmail.com",
@@ -22,9 +23,7 @@ transporter.verify((error, success) => {
   }
 });
 router.post("/send", (req, res, next) => {
-  var name = req.body.name;
-  var email = req.body.email;
-  var message = req.body.message;
+  const { name, email, message } = req.body;
   var content = `name: ${name} \n email: ${email} \n message: ${message} `;
   var mail = {
     from: name,
@@ -47,12 +46,11 @@ router.post("/send", (req, res, next) => {
     }
   });
 });
-const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
 
-const PORT = process.env.REACT_APP_PORT;
+const PORT = process.env.REACT_APP_PORT || 3001;
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);

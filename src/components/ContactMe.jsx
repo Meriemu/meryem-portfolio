@@ -118,6 +118,7 @@ const ContactMe = () => {
                   className="form-control"
                   value={name}
                   onChange={onNameChange}
+                  placeholder="Your name"
                 />
               </div>
               <div className="mb-3">
@@ -128,6 +129,7 @@ const ContactMe = () => {
                   aria-describedby="emailHelp"
                   value={email}
                   onChange={onEmailChange}
+                  placeholder="Your email"
                 />
               </div>
               <div className="mb-3">
@@ -137,6 +139,7 @@ const ContactMe = () => {
                   rows="5"
                   value={message}
                   onChange={onMessageChange}
+                  placeholder="Your message..."
                 ></textarea>
               </div>
               <button type="submit" className="btn btn-primary py-3 px-5">
