@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Enveloppe from "../images/enveloppe_2.jpeg";
+import config from "../config";
 
 const ContactMe = () => {
   const [name, setName] = useState("");
@@ -21,8 +22,11 @@ const ContactMe = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     // const data = { name, email, message };
+    const backendUrl =
+      process.env.REACT_APP_BACKEND_URL || "http://localhost:3001";
+
     await axios
-      .post("https://meryem-portfolio.vercel.app/send", {
+      .post(`${config.apiUrl}/send`, {
         name,
         email,
         message,
