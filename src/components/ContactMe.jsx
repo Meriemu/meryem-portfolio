@@ -22,7 +22,7 @@ const ContactMe = () => {
     e.preventDefault();
     // const data = { name, email, message };
     await axios
-      .post("http://localhost:3001/send", {
+      .post("https://meryem-portfolio.vercel.app/send", {
         name,
         email,
         message,
