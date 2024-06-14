@@ -40,19 +40,19 @@ const Skills = () => {
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
                 <h3>CSS3</h3>
-                <span>90%</span>
+                <span>95%</span>
               </div>
 
               <div className="progress">
                 <div
                   className="progress-bar color-4"
                   role="progressbar"
-                  aria-valuenow="90"
+                  aria-valuenow="95"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "90%" }}
+                  style={{ width: "95%" }}
                 >
-                  <span>90%</span>
+                  <span>95%</span>
                 </div>
               </div>
             </div>
@@ -144,20 +144,20 @@ const Skills = () => {
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
-                <h3>Figma</h3>
-                <span>50%</span>
+                <h3>TypeScript</h3>
+                <span>30%</span>
               </div>
 
               <div className="progress">
                 <div
-                  className="progress-bar color-1"
+                  className="progress-bar color-5"
                   role="progressbar"
-                  aria-valuenow="50"
+                  aria-valuenow="30"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "50%" }}
+                  style={{ width: "30%" }}
                 >
-                  <span>50%</span>
+                  <span>30%</span>
                 </div>
               </div>
             </div>
@@ -165,7 +165,91 @@ const Skills = () => {
           <div className="col-md-6 animate-box">
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
-                <h3>Photoshop</h3>
+                <h3>NodeJs</h3>
+                <span>30%</span>
+              </div>
+
+              <div className="progress">
+                <div
+                  className="progress-bar color-5"
+                  role="progressbar"
+                  aria-valuenow="30"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "30%" }}
+                >
+                  <span>30%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 animate-box">
+            <div className="progress-wrap portfolio-animate">
+              <div className="progress-infos">
+                <h3>MySql/SQLServer/MongoDB</h3>
+                <span>50%</span>
+              </div>
+
+              <div className="progress">
+                <div
+                  className="progress-bar color-5"
+                  role="progressbar"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "50%" }}
+                >
+                  <span>45%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 animate-box">
+            <div className="progress-wrap portfolio-animate">
+              <div className="progress-infos">
+                <h3>GitHub/GitLab/Bitbucket</h3>
+                <span>70%</span>
+              </div>
+
+              <div className="progress">
+                <div
+                  className="progress-bar color-5"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "70%" }}
+                >
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 animate-box">
+            <div className="progress-wrap portfolio-animate">
+              <div className="progress-infos">
+                <h3>R&D</h3>
+                <span>40%</span>
+              </div>
+
+              <div className="progress">
+                <div
+                  className="progress-bar color-1"
+                  role="progressbar"
+                  aria-valuenow="40"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "40%" }}
+                >
+                  <span>40%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 animate-box">
+            <div className="progress-wrap portfolio-animate">
+              <div className="progress-infos">
+                <h3>Photoshop/Figma</h3>
                 <span>50%</span>
               </div>
 
@@ -199,7 +283,6 @@ const Skills = () => {
                   aria-valuemax="100"
                   style={{ width: "60%" }}
                 >
-                  {" "}
                   <span>60%</span>
                 </div>
               </div>
