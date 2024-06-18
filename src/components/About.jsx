@@ -50,7 +50,7 @@ const About = () => {
               <div className="text">
                 <p>
                   <a
-                    href="https://meriemu.github.io/meryem-portfolio/En-CV_2024-04-03_Meryem_ACHEMLAL.pdf"
+                    href="https://meriemu.github.io/meryem-portfolio/CV-EN_2024-06-18_Meryem_ACHEMLAL.pdf"
                     className="btn btn-primary py-3 px-3"
                     download="CV_Meryem_ACHEMLAL.pdf"
                   >

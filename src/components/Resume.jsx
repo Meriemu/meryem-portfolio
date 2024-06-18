@@ -52,7 +52,7 @@ const Resume = () => {
           <div className="col-md-6 text-center portfolio-animate">
             <p>
               <a
-                href="https://meriemu.github.io/meryem-portfolio/En-CV_2024-04-03_Meryem_ACHEMLAL.pdf"
+                href="https://meriemu.github.io/meryem-portfolio/CV-EN_2024-06-18_Meryem_ACHEMLAL.pdf"
                 download="CV_Meryem_ACHEMLAL.pdf"
                 className="btn btn-primary py-4 px-5"
               >
