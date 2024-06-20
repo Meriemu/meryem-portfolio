@@ -54,9 +54,16 @@ const Resume = () => {
               <a
                 href="https://meryem-portfolio.vercel.app/CV-EN_2024-06-18_Meryem_ACHEMLAL.pdf"
                 download="CV_Meryem_ACHEMLAL.pdf"
-                className="btn btn-primary py-4 px-5"
+                className="btn btn-primary py-3 px-3 me-1"
               >
                 Download CV
+              </a>
+              <a
+                href="https://meryem-portfolio.vercel.app/CV-FR_2024-06-18_Meryem_ACHEMLAL.pdf"
+                className="btn btn-primary py-3 px-3"
+                download="CV-FR_Meryem_ACHEMLAL.pdf"
+              >
+                Download CV (FR)
               </a>
             </p>
           </div>
