@@ -29,7 +29,7 @@ const Skills = () => {
                   aria-valuenow="95"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "95%" }}
+                  style={{width: "95%"}}
                 >
                   <span>95%</span>
                 </div>
@@ -50,7 +50,7 @@ const Skills = () => {
                   aria-valuenow="95"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "95%" }}
+                  style={{width: "95%"}}
                 >
                   <span>95%</span>
                 </div>
@@ -71,7 +71,7 @@ const Skills = () => {
                   aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "80%" }}
+                  style={{width: "80%"}}
                 >
                   <span>80%</span>
                 </div>
@@ -92,7 +92,7 @@ const Skills = () => {
                   aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "80%" }}
+                  style={{width: "80%"}}
                 >
                   <span>80%</span>
                 </div>
@@ -103,19 +103,19 @@ const Skills = () => {
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
                 <h3>Javascript/jQuery</h3>
-                <span>70%</span>
+                <span>85%</span>
               </div>
 
               <div className="progress">
                 <div
                   className="progress-bar color-2"
                   role="progressbar"
-                  aria-valuenow="70"
+                  aria-valuenow="85"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "70%" }}
+                  style={{width: "85%"}}
                 >
-                  <span>70%</span>
+                  <span>85%</span>
                 </div>
               </div>
             </div>
@@ -124,19 +124,19 @@ const Skills = () => {
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
                 <h3>React</h3>
-                <span>40%</span>
+                <span>70%</span>
               </div>
 
               <div className="progress">
                 <div
                   className="progress-bar color-5"
                   role="progressbar"
-                  aria-valuenow="40"
+                  aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "40%" }}
+                  style={{width: "70%"}}
                 >
-                  <span>40%</span>
+                  <span>70%</span>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ const Skills = () => {
                   aria-valuenow="30"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "30%" }}
+                  style={{width: "30%"}}
                 >
                   <span>30%</span>
                 </div>
@@ -176,7 +176,7 @@ const Skills = () => {
                   aria-valuenow="30"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "30%" }}
+                  style={{width: "30%"}}
                 >
                   <span>30%</span>
                 </div>
@@ -187,19 +187,19 @@ const Skills = () => {
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
                 <h3>MySql/SQLServer/MongoDB</h3>
-                <span>50%</span>
+                <span>65%</span>
               </div>
 
               <div className="progress">
                 <div
                   className="progress-bar color-5"
                   role="progressbar"
-                  aria-valuenow="50"
+                  aria-valuenow="65"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "50%" }}
+                  style={{width: "65%"}}
                 >
-                  <span>45%</span>
+                  <span>65%</span>
                 </div>
               </div>
             </div>
@@ -218,7 +218,7 @@ const Skills = () => {
                   aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "70%" }}
+                  style={{width: "70%"}}
                 >
                   <span>70%</span>
                 </div>
@@ -229,19 +229,19 @@ const Skills = () => {
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
                 <h3>R&D</h3>
-                <span>40%</span>
+                <span>70%</span>
               </div>
 
               <div className="progress">
                 <div
                   className="progress-bar color-1"
                   role="progressbar"
-                  aria-valuenow="40"
+                  aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "40%" }}
+                  style={{width: "70%"}}
                 >
-                  <span>40%</span>
+                  <span>70%</span>
                 </div>
               </div>
             </div>
@@ -250,19 +250,19 @@ const Skills = () => {
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
                 <h3>Photoshop/Figma</h3>
-                <span>50%</span>
+                <span>85%</span>
               </div>
 
               <div className="progress">
                 <div
                   className="progress-bar color-1"
                   role="progressbar"
-                  aria-valuenow="50"
+                  aria-valuenow="85"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "50%" }}
+                  style={{width: "85%"}}
                 >
-                  <span>50%</span>
+                  <span>85%</span>
                 </div>
               </div>
             </div>
@@ -271,19 +271,19 @@ const Skills = () => {
             <div className="progress-wrap portfolio-animate">
               <div className="progress-infos">
                 <h3>Trello/Tracker/Jira</h3>
-                <span>60%</span>
+                <span>80%</span>
               </div>
 
               <div className="progress">
                 <div
                   className="progress-bar color-1"
                   role="progressbar"
-                  aria-valuenow="60"
+                  aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "60%" }}
+                  style={{width: "80%"}}
                 >
-                  <span>60%</span>
+                  <span>80%</span>
                 </div>
               </div>
             </div>

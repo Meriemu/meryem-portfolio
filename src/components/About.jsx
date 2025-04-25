@@ -13,7 +13,7 @@ const About = () => {
               <div className="overlay"></div>
               <div
                 className="img d-flex align-self-stretch align-items-center"
-                style={{ backgroundImage: "url(" + PhotoMeryem + " )" }}
+                style={{backgroundImage: "url(" + PhotoMeryem + " )"}}
               ></div>
             </div>
           </div>
@@ -50,14 +50,14 @@ const About = () => {
               <div className="text">
                 <p>
                   <a
-                    href="https://meryem-portfolio.vercel.app/CV-EN_2024-06-18_Meryem_ACHEMLAL.pdf"
+                    href="https://meryem-portfolio.vercel.app/CV_2025-04-25_Meryem_ACHEMLAL.pdf"
                     className="btn btn-primary py-3 px-3 me-1"
                     download="CV_Meryem_ACHEMLAL.pdf"
                   >
                     Download CV
                   </a>
                   <a
-                    href="https://meryem-portfolio.vercel.app/CV-FR_2024-06-18_Meryem_ACHEMLAL.pdf"
+                    href="https://meryem-portfolio.vercel.app/EN--CV_2025-04-25_Meryem_ACHEMLAL.pdf"
                     className="btn btn-primary py-3 px-3"
                     download="CV-FR_Meryem_ACHEMLAL.pdf"
                   >
