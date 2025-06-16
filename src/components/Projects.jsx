@@ -5,11 +5,12 @@ import EcommerceApiNextjs from "../images/ecommerceApi.png";
 import reactiveCreditCard from "../images/reactive-creditCard.png";
 import TikTakToe from "../images/tikTakToe.png";
 import DarkModeReact from "../images/darkModeReact.png";
-
 import Weather from "../images/Weather.png";
 import ConvertToBTC from "../images/convertToBTC.png";
+import DetectFeeling from "../images/detectFeelings.png";
 
 import GithubIcon from "../images/githubIcon.svg";
+
 const Projects = () => {
   return (
     <section
@@ -116,7 +117,7 @@ const Projects = () => {
               <div className="portfolio__Projects--titreBox text text-center p-4">
                 <h3>
                   <a href="https://meriemu.github.io/Reactive-Card-Reactjs/">
-                    Lvmh Slider
+                    Reactive credit card
                   </a>
                 </h3>
                 <div className="portfolio__projects--tag">
@@ -239,6 +240,33 @@ const Projects = () => {
                 </div>
                 <a
                   href="https://github.com/Meriemu/Weather"
+                  className="portfolio__Projects--github"
+                >
+                  <img src={GithubIcon} alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col-md-6 offset-3">
+            <div
+              className="project img portfolio-animate d-flex justify-content-center align-items-center"
+              style={{ backgroundImage: "url(" + DetectFeeling + ")" }}
+            >
+              <div className="overlay"></div>
+              <div className="portfolio__Projects--titreBox text text-center p-4">
+                <h3>
+                  <a href="https://ai-feeling-reactjs.vercel.app/">Detect feelings (AI)</a>
+                </h3>
+                <div className="portfolio__projects--tag">
+                <span>React /</span>
+                  <span>html /</span>
+                  <span>sass /</span>
+                  <span>API /</span>
+                  <span>AI /</span>
+                </div>
+                <a
+                  href="https://github.com/Meriemu/AI-Feeling-Reactjs"
                   className="portfolio__Projects--github"
                 >
                   <img src={GithubIcon} alt="" />
