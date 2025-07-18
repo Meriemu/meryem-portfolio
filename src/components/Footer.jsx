@@ -32,9 +32,9 @@ const Footer = () => {
             <div className="portfolio-footer-widget mb-4">
               <h2 className="portfolio-heading-2">About</h2>
               <p>
-                After 5 years of experience as a Front developer/Web integrator
-                and 1 year as React developer, I am currently looking for a job
-                as a <b>Reactjs Front-End Developer</b>
+                Front-end developer with solid experience in responsive, 
+                mobile-first UI development and recent work with React.js. 
+                I focus on clean code, performance, and strong UI/UX consistency.
               </p>
               <ul className="portfolio-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li>

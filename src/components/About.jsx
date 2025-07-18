@@ -23,9 +23,9 @@ const About = () => {
                 <h1 className="big">About</h1>
                 <h2 className="mb-4">About me</h2>
                 <p>
-                  After 5 years of experience as a Front developer/Web
-                  integrator and 1 year as React developer, I am currently
-                  looking for a job as a Reactjs <b>Front-End Developer</b>
+                  Front-end developer with solid experience in responsive UI development and recent projects using React.js. 
+                  I combine integration skills with modern JavaScript practices, mobile-first UI, 
+                  focusing on clean code, performance, and strong attention to UI/UX.
                 </p>
                 <ul className="about-info mt-4 px-md-0 px-2">
                   <li className="d-flex">
