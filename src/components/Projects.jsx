@@ -8,6 +8,7 @@ import DarkModeReact from "../images/darkModeReact.png";
 import Weather from "../images/Weather.png";
 import ConvertToBTC from "../images/convertToBTC.png";
 import DetectFeeling from "../images/detectFeelings.png";
+import RNTemperatureConverterPreview from "../images/rnTemperatureConverter.png";
 
 import GithubIcon from "../images/githubIcon.svg";
 
@@ -247,8 +248,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          
-          <div className="col-md-6 offset-3">
+
+          <div className="col-md-6">
             <div
               className="project img portfolio-animate d-flex justify-content-center align-items-center"
               style={{ backgroundImage: "url(" + DetectFeeling + ")" }}
@@ -256,10 +257,12 @@ const Projects = () => {
               <div className="overlay"></div>
               <div className="portfolio__Projects--titreBox text text-center p-4">
                 <h3>
-                  <a href="https://ai-feeling-reactjs.vercel.app/">Detect feelings (AI)</a>
+                  <a href="https://ai-feeling-reactjs.vercel.app/">
+                    Detect feelings (AI)
+                  </a>
                 </h3>
                 <div className="portfolio__projects--tag">
-                <span>React /</span>
+                  <span>React /</span>
                   <span>html /</span>
                   <span>sass /</span>
                   <span>API /</span>
@@ -270,6 +273,42 @@ const Projects = () => {
                   className="portfolio__Projects--github"
                 >
                   <img src={GithubIcon} alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div
+              className="project img portfolio-animate d-flex justify-content-center align-items-center"
+              style={{
+                backgroundImage: "url(" + RNTemperatureConverterPreview + ")",
+              }}
+            >
+              <div className="overlay"></div>
+              <div className="portfolio__Projects--titreBox text text-center p-4">
+                <h3>
+                  <a
+                    href="https://rn-temperature-converter--rvjpbvtjyp.expo.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    React Native Temperature Converter (mobile)
+                  </a>
+                </h3>
+                <div className="portfolio__projects--tag">
+                  <span>React Native/</span>
+                  <span>Expo/</span>
+                  <span>TypeScript/</span>
+                  <span>Mobile App</span>
+                </div>
+                <a
+                  href="https://github.com/Meriemu/RN-temperature-converter"
+                  className="portfolio__Projects--github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={GithubIcon} alt="GitHub repo" />
                 </a>
               </div>
             </div>
