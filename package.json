@@ -9,6 +9,7 @@
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
+    "nodemailer": "^10.0.10",
     "popper.js": "^1.16.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
@@ -26,7 +27,6 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-
   "browserslist": {
     "production": [
       ">0.2%",

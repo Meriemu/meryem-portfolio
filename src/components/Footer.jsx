@@ -1,22 +1,18 @@
-import React, { useState, useEffect } from "react";
-
+import React, {useState, useEffect} from "react";
 import CodewarsIcon from "../images/codewarsIcon.svg";
+
 const Footer = () => {
   const [scroll, setScroll] = useState(false);
+
   useEffect(() => {
-    // Afficher ou masquer le bouton lorsque l'utilisateur fait défiler la page
     const toggleVisibility = () => {
-      if (window.pageYOffset > 300) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
+      setScroll(window.pageYOffset > 300);
     };
 
     window.addEventListener("scroll", toggleVisibility);
-
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -32,25 +28,30 @@ const Footer = () => {
             <div className="portfolio-footer-widget mb-4">
               <h2 className="portfolio-heading-2">About</h2>
               <p>
-                Front-end developer with solid experience in responsive, 
-                mobile-first UI development and recent work with React.js. 
-                I focus on clean code, performance, and strong UI/UX consistency.
+                Front-end developer with solid experience in responsive,
+                mobile-first UI development and recent work with React.js. I
+                focus on clean code, performance, and strong UI/UX consistency.
               </p>
               <ul className="portfolio-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li>
-                  <a href="https://github.com/Meriemu">
-                    <span className="icon-github"></span>
+                  <a href="https://github.com/Meriemu" aria-label="GitHub">
+                    <span className="icon-github" aria-hidden="true"></span>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.codewars.com/users/Meriemu">
-                    <img src={CodewarsIcon} alt="" />
+                  <a
+                    href="https://www.codewars.com/users/Meriemu"
+                    aria-label="Codewars"
+                  >
+                    <img src={CodewarsIcon} alt="Profil Codewars" />
                   </a>
                 </li>
-
                 <li className="portfolio-animate">
-                  <a href="https://www.linkedin.com/in/meryem-a-582b22a5/">
-                    <span className="icon-linkedin"></span>
+                  <a
+                    href="https://www.linkedin.com/in/meryem-a-582b22a5/"
+                    aria-label="LinkedIn"
+                  >
+                    <span className="icon-linkedin" aria-hidden="true"></span>
                   </a>
                 </li>
               </ul>
@@ -61,20 +62,32 @@ const Footer = () => {
               <h2 className="portfolio-heading-2">Links</h2>
               <ul className="list-unstyled">
                 <li>
-                  <span className="icon-long-arrow-right mr-2"></span>
-                  <a href="#home-section"> Home</a>
+                  <span
+                    className="icon-long-arrow-right mr-2"
+                    aria-hidden="true"
+                  ></span>
+                  <a href="#home-section">Home</a>
                 </li>
                 <li>
-                  <span className="icon-long-arrow-right mr-2"></span>
-                  <a href="#about-section"> About</a>
+                  <span
+                    className="icon-long-arrow-right mr-2"
+                    aria-hidden="true"
+                  ></span>
+                  <a href="#about-section">About</a>
                 </li>
                 <li>
-                  <span className="icon-long-arrow-right mr-2"></span>
-                  <a href="#projects-section"> Projects</a>
+                  <span
+                    className="icon-long-arrow-right mr-2"
+                    aria-hidden="true"
+                  ></span>
+                  <a href="#projects-section">Projects</a>
                 </li>
                 <li>
-                  <span className="icon-long-arrow-right mr-2"></span>
-                  <a href="#contact-section"> Contact</a>
+                  <span
+                    className="icon-long-arrow-right mr-2"
+                    aria-hidden="true"
+                  ></span>
+                  <a href="#contact-section">Contact</a>
                 </li>
               </ul>
             </div>
@@ -82,22 +95,28 @@ const Footer = () => {
 
           <div className="col-md">
             <div className="portfolio-footer-widget mb-4">
-              <h2 className="portfolio-heading-2">Have a Questions?</h2>
+              <h2 className="portfolio-heading-2">Have a Question?</h2>
               <div className="block-23 mb-3">
                 <ul>
                   <li>
-                    <span className="icon icon-map-marker"></span>
-                    <span className="text">France - Les Mureaux</span>
+                    <span
+                      className="icon icon-map-marker"
+                      aria-hidden="true"
+                    ></span>
+                    <span className="text">France</span>
                   </li>
                   <li>
-                    <span className="icon icon-phone"></span>
-                    <a href="tel://+33619562721">
-                      <span className="text">+33-619-56-27-21</span>
+                    <span className="icon icon-phone" aria-hidden="true"></span>
+                    <a href="tel:+33619562721">
+                      <span className="text">+33 6 19 56 27 21</span>
                     </a>
                   </li>
                   <li>
-                    <span className="icon icon-envelope"></span>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=me.achemlal@gmail.com">
+                    <span
+                      className="icon icon-envelope"
+                      aria-hidden="true"
+                    ></span>
+                    <a href="mailto:me.achemlal@gmail.com">
                       <span className="text">me.achemlal@gmail.com</span>
                     </a>
                   </li>
@@ -109,9 +128,11 @@ const Footer = () => {
       </div>
       <div>
         {scroll && (
-          <button className="scroll-btn icon-hand-o-up" onClick={scrollToTop}>
-            {/* <button className="scroll-btn icon-arrow-up" onClick={scrollToTop}>  */}
-          </button>
+          <button
+            className="scroll-btn icon-hand-o-up"
+            onClick={scrollToTop}
+            aria-label="Retourner en haut de la page"
+          ></button>
         )}
       </div>
     </footer>
