@@ -52,9 +52,9 @@ const About = () => {
               <div className="text">
                 <p>
                   <a
-                    href="https://meryem-portfolio.vercel.app/CV_2025-04-25_Meryem_ACHEMLAL.pdf"
+                    href="https://meryem-portfolio.vercel.app/EN--CV__Meryem_ACHEMLAL_UP.pdf"
                     className="btn btn-primary py-3 px-3 me-1"
-                    download="CV_Meryem_ACHEMLAL.pdf"
+                    download="CV-EN_Meryem_ACHEMLAL.pdf"
                   >
                     Download CV
                   </a>
