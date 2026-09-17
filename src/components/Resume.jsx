@@ -8,7 +8,7 @@ const Resume = () => {
           <div className="col-md-10 heading-section text-center portfolio-animate">
             <h1 className="big big-2">Resume</h1>
             <h2 className="mb-4">Resume</h2>
-            <p>
+            <p className="subheading">
               Summary of my academic background, encompassing university degrees
               and qualifications.
             </p>

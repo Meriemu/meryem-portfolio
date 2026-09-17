@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from "react";
 import CodewarsIcon from "../images/codewarsIcon.svg";
 
+import "../styles/footer.scss";
+
 const Footer = () => {
   const [scroll, setScroll] = useState(false);
 
@@ -21,120 +23,137 @@ const Footer = () => {
   };
 
   return (
-    <footer className="portfolio-footer portfolio-section">
-      <div className="container">
-        <div className="row mb-5">
-          <div className="col-md">
-            <div className="portfolio-footer-widget mb-4">
-              <h2 className="portfolio-heading-2">About</h2>
-              <p>
-                Front-end developer with solid experience in responsive,
-                mobile-first UI development and recent work with React.js. I
-                focus on clean code, performance, and strong UI/UX consistency.
+    <footer className="portfolio-footer-cyber">
+      <div className="footer-glow-line"></div>
+
+      <div className="container py-5">
+        <div className="row g-4 mb-4">
+          <div className="col-lg-5 col-md-6">
+            <div className="footer-widget">
+              <h3 className="widget-title">Meryem Achemlal</h3>
+              <p className="widget-text">
+                Front-End Developer & Web Integrator specializing in React.js,
+                responsive UI/UX, and digital accessibility (RGAA / WCAG).
               </p>
-              <ul className="portfolio-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li>
-                  <a href="https://github.com/Meriemu" aria-label="GitHub">
-                    <span className="icon-github" aria-hidden="true"></span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.codewars.com/users/Meriemu"
-                    aria-label="Codewars"
-                  >
-                    <img src={CodewarsIcon} alt="Profil Codewars" />
-                  </a>
-                </li>
-                <li className="portfolio-animate">
-                  <a
-                    href="https://www.linkedin.com/in/meryem-a-582b22a5/"
-                    aria-label="LinkedIn"
-                  >
-                    <span className="icon-linkedin" aria-hidden="true"></span>
-                  </a>
-                </li>
-              </ul>
+              <div className="social-links-cyber mt-4">
+                <a
+                  href="https://github.com/Meriemu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub Profile"
+                  className="social-btn"
+                >
+                  <span className="icon-github" aria-hidden="true"></span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/meryem-a-582b22a5/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn Profile"
+                  className="social-btn"
+                >
+                  <span className="icon-linkedin" aria-hidden="true"></span>
+                </a>
+                <a
+                  href="https://www.codewars.com/users/Meriemu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Codewars Profile"
+                  className="social-btn codewars-btn"
+                >
+                  <img src={CodewarsIcon} alt="" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </div>
-          <div className="col-md">
-            <div className="portfolio-footer-widget mb-4 ml-md-4">
-              <h2 className="portfolio-heading-2">Links</h2>
-              <ul className="list-unstyled">
+
+          <div className="col-lg-3 col-md-6">
+            <div className="footer-widget">
+              <h4 className="widget-subtitle">Navigation</h4>
+              <ul className="footer-nav-links list-unstyled">
                 <li>
-                  <span
-                    className="icon-long-arrow-right mr-2"
-                    aria-hidden="true"
-                  ></span>
-                  <a href="#home-section">Home</a>
+                  <a href="#about-section">
+                    <i className="icon-long-arrow-right" aria-hidden="true"></i>{" "}
+                    About
+                  </a>
                 </li>
                 <li>
-                  <span
-                    className="icon-long-arrow-right mr-2"
-                    aria-hidden="true"
-                  ></span>
-                  <a href="#about-section">About</a>
+                  <a href="#resume-section">
+                    <i className="icon-long-arrow-right" aria-hidden="true"></i>{" "}
+                    Resume
+                  </a>
                 </li>
                 <li>
-                  <span
-                    className="icon-long-arrow-right mr-2"
-                    aria-hidden="true"
-                  ></span>
-                  <a href="#projects-section">Projects</a>
+                  <a href="#skills-section">
+                    <i className="icon-long-arrow-right" aria-hidden="true"></i>{" "}
+                    Skills
+                  </a>
                 </li>
                 <li>
-                  <span
-                    className="icon-long-arrow-right mr-2"
-                    aria-hidden="true"
-                  ></span>
-                  <a href="#contact-section">Contact</a>
+                  <a href="#projects-section">
+                    <i className="icon-long-arrow-right" aria-hidden="true"></i>{" "}
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact-section">
+                    <i className="icon-long-arrow-right" aria-hidden="true"></i>{" "}
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="col-md">
-            <div className="portfolio-footer-widget mb-4">
-              <h2 className="portfolio-heading-2">Have a Question?</h2>
-              <div className="block-23 mb-3">
-                <ul>
-                  <li>
-                    <span
-                      className="icon icon-map-marker"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="text">France</span>
-                  </li>
-                  <li>
-                    <span className="icon icon-phone" aria-hidden="true"></span>
-                    <a href="tel:+33619562721">
-                      <span className="text">+33 6 19 56 27 21</span>
-                    </a>
-                  </li>
-                  <li>
-                    <span
-                      className="icon icon-envelope"
-                      aria-hidden="true"
-                    ></span>
-                    <a href="mailto:me.achemlal@gmail.com">
-                      <span className="text">me.achemlal@gmail.com</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          <div className="col-lg-4 col-md-12">
+            <div className="footer-widget">
+              <h4 className="widget-subtitle">Direct Contact</h4>
+              <ul className="footer-contact-info list-unstyled">
+                <li>
+                  <span
+                    className="contact-icon icon-map-marker"
+                    aria-hidden="true"
+                  ></span>
+                  <span>France</span>
+                </li>
+                <li>
+                  <span
+                    className="contact-icon icon-phone"
+                    aria-hidden="true"
+                  ></span>
+                  <a href="tel:+33619562721">+33 6 19 56 27 21</a>
+                </li>
+                <li>
+                  <span
+                    className="contact-icon icon-envelope"
+                    aria-hidden="true"
+                  ></span>
+                  <a href="mailto:me.achemlal@gmail.com">
+                    me.achemlal@gmail.com
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
+
+        <div className="footer-bottom text-center pt-4 mt-4">
+          <p>
+            © {new Date().getFullYear()} Meryem Achemlal — Built with React.js &
+            Passion ⚡
+          </p>
+        </div>
       </div>
-      <div>
-        {scroll && (
-          <button
-            className="scroll-btn icon-hand-o-up"
-            onClick={scrollToTop}
-            aria-label="Retourner en haut de la page"
-          ></button>
-        )}
-      </div>
+
+      {scroll && (
+        <button
+          className="scroll-to-top-cyber"
+          onClick={scrollToTop}
+          aria-label="Back to top"
+        >
+          <span className="icon-hand-o-up" aria-hidden="true"></span>
+        </button>
+      )}
     </footer>
   );
 };

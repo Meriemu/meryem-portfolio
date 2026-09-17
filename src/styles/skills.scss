@@ -1,0 +1,105 @@
+/* ==========================================================================
+   NOUVEAU DESIGN SKILLS (CYBER & GLASSMORPHISM)
+   ========================================================================== */
+
+.skills-section-modern {
+  .skill-card-cyber {
+    position: relative;
+    background: rgba(20, 20, 20, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 24px 16px;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .glow-effect {
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(
+        circle,
+        rgba(153, 2, 52, 0.25) 0%,
+        transparent 60%
+      );
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
+    }
+
+    .skill-icon-wrapper {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+      transition: transform 0.3s ease;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .skill-title {
+      font-size: 1.1rem !important;
+      font-weight: 700 !important;
+      color: #ffffff !important;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .skill-badges {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      span {
+        font-size: 0.72rem;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .badge-cat {
+        background: rgba(255, 255, 255, 0.06);
+        color: #b0b0b0;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .badge-level {
+        background: rgba(153, 2, 52, 0.2);
+        color: #ff4d7d;
+        border: 1px solid rgba(153, 2, 52, 0.4);
+      }
+    }
+
+    &:hover {
+      transform: translateY(-8px) scale(1.02);
+      border-color: rgba(153, 2, 52, 0.6);
+      box-shadow: 0 14px 30px rgba(153, 2, 52, 0.25);
+
+      .glow-effect {
+        opacity: 1;
+      }
+
+      .skill-icon-wrapper {
+        transform: scale(1.15) rotate(4deg);
+      }
+    }
+  }
+}

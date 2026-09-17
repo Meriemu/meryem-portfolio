@@ -9,310 +9,174 @@ import Weather from "../images/Weather.png";
 import ConvertToBTC from "../images/convertToBTC.png";
 import DetectFeeling from "../images/detectFeelings.png";
 import RNTemperatureConverterPreview from "../images/rnTemperatureConverter.png";
-
 import GithubIcon from "../images/githubIcon.svg";
+
+import "../styles/projects.scss";
+
+const projectsList = [
+  {
+    id: 1,
+    title: "Ecommerce Next.js API",
+    image: EcommerceApiNextjs,
+    demoUrl: "https://ecommerce-nextjs-ruddy.vercel.app/",
+    githubUrl: "https://github.com/Meriemu/ecommerce-Nextjs",
+    tags: ["Next.js", "React", "API", "CSS3"],
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Detect Feelings (AI)",
+    image: DetectFeeling,
+    demoUrl: "https://ai-feeling-reactjs.vercel.app/",
+    githubUrl: "https://github.com/Meriemu/AI-Feeling-Reactjs",
+    tags: ["React", "AI", "SASS", "API"],
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "RN Temperature Converter",
+    image: RNTemperatureConverterPreview,
+    demoUrl: "https://rn-temperature-converter--rvjpbvtjyp.expo.app",
+    githubUrl: "https://github.com/Meriemu/RN-temperature-converter",
+    tags: ["React Native", "Expo", "TypeScript"],
+    featured: false,
+  },
+  {
+    id: 4,
+    title: "Calculator Theme",
+    image: Calculator,
+    demoUrl: "https://meriemu.github.io/calculatorTheme-Reactjs/",
+    githubUrl: "https://github.com/Meriemu/calculatorTheme-Reactjs",
+    tags: ["React", "JavaScript", "CSS"],
+    featured: false,
+  },
+  {
+    id: 5,
+    title: "Advice Generator API",
+    image: AdviceGenerator,
+    demoUrl: "https://meriemu.github.io/advice-generator-Reactjs/",
+    githubUrl: "https://github.com/Meriemu/advice-generator-Reactjs",
+    tags: ["React", "REST API", "CSS3"],
+    featured: false,
+  },
+  {
+    id: 6,
+    title: "Reactive Credit Card",
+    image: reactiveCreditCard,
+    demoUrl: "https://meriemu.github.io/Reactive-Card-Reactjs/",
+    githubUrl: "https://github.com/Meriemu/Reactive-Card-Reactjs",
+    tags: ["React", "JavaScript", "UI/UX"],
+    featured: false,
+  },
+  {
+    id: 7,
+    title: "BTC To EURO (AI)",
+    image: ConvertToBTC,
+    demoUrl: "https://meriemu.github.io/Convert-bitcoin-to-euro-Reactjs/",
+    githubUrl: "https://github.com/Meriemu/Convert-bitcoin-to-euro-Reactjs",
+    tags: ["React", "AI", "Crypto"],
+    featured: false,
+  },
+  {
+    id: 8,
+    title: "Weather App",
+    image: Weather,
+    demoUrl: "https://meriemu.github.io/Weather/",
+    githubUrl: "https://github.com/Meriemu/Weather",
+    tags: ["React", "Weather API", "CSS3"],
+    featured: false,
+  },
+  {
+    id: 9,
+    title: "Dark / Light Mode",
+    image: DarkModeReact,
+    demoUrl: "https://meriemu.github.io/Dark-mode-Reactjs/",
+    githubUrl: "https://github.com/Meriemu/Dark-mode-Reactjs",
+    tags: ["React", "Hooks", "Theme Switch"],
+    featured: false,
+  },
+  {
+    id: 10,
+    title: "Tik Tak Toe !",
+    image: TikTakToe,
+    demoUrl: "https://meriemu.github.io/tik-tak-toe-Reactjs/",
+    githubUrl: "https://github.com/Meriemu/tik-tak-toe-Reactjs",
+    tags: ["React", "Game Logic", "CSS3"],
+    featured: false,
+  },
+];
 
 const Projects = () => {
   return (
     <section
-      className="portfolio-section portfolio-project"
+      className="portfolio-section projects-section-cyber"
       id="projects-section"
     >
       <div className="container">
         <div className="row justify-content-center pb-5">
-          <div className="col-md-12 heading-section text-center portfolio-animate">
+          <div className="col-md-10 heading-section text-center portfolio-animate">
             <h1 className="big big-2">Projects</h1>
-            <h2 className="mb-4">Projects</h2>
-            <p>Explore a diverse range of innovative projects.</p>
+            <h2 className="mb-4">Featured Projects</h2>
+            <p>
+              A selection of my React, Next.js, Mobile apps, and interactive web
+              projects.
+            </p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-4">
-            <div
-              className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url(" + Calculator + ")" }}
-            >
-              <div className="overlay"></div>
-              <div className="portfolio__Projects--titreBox text text-center p-4">
-                <h3>
-                  <a href="https://meriemu.github.io/calculatorTheme-Reactjs/">
-                    Calculator Theme
-                  </a>
-                </h3>
-                <div className="portfolio__projects--tag">
-                  <span>html /</span>
-                  <span>css /</span>
-                  <span>Js /</span>
-                  <span>React</span>
-                </div>
-                <a
-                  href="https://github.com/Meriemu/calculatorTheme-Reactjs"
-                  className="portfolio__Projects--github"
-                >
-                  <img src={GithubIcon} alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-8">
-            <div
-              className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url(" + AdviceGenerator + ")" }}
-            >
-              <div className="overlay"></div>
-              <div className="portfolio__Projects--titreBox text text-center p-4">
-                <h3>
-                  <a href="https://meriemu.github.io/advice-generator-Reactjs/">
-                    Advice Generator API
-                  </a>
-                </h3>
-                <div className="portfolio__projects--tag">
-                  <span>html /</span>
-                  <span>css /</span>
-                  <span>API /</span>
-                  <span>React</span>
-                </div>
-                <a
-                  href="https://github.com/Meriemu/advice-generator-Reactjs"
-                  className="portfolio__Projects--github"
-                >
-                  <img src={GithubIcon} alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
 
-          <div className="col-md-8">
+        <div className="row g-4">
+          {projectsList.map((project) => (
             <div
-              className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url(" + EcommerceApiNextjs + ")" }}
+              className={
+                project.featured ? "col-lg-6 col-md-12" : "col-lg-4 col-md-6"
+              }
+              key={project.id}
             >
-              <div className="overlay"></div>
-              <div className="portfolio__Projects--titreBox text text-center p-4">
-                <h3>
-                  <a href="https://ecommerce-nextjs-ruddy.vercel.app/">
-                    Ecommerce Api Nextjs
-                  </a>
-                </h3>
-                <div className="portfolio__projects--tag">
-                  <span>html /</span>
-                  <span>css /</span>
-                  <span>API /</span>
-                  <span>React /</span>
-                  <span>Nextjs</span>
+              <div className="project-cyber-card">
+                <div className="card-media">
+                  <img src={project.image} alt={`${project.title} preview`} />
+                  <div className="card-media-overlay"></div>
                 </div>
-                <a
-                  href="https://github.com/Meriemu/ecommerce-Nextjs"
-                  className="portfolio__Projects--github"
-                >
-                  <img src={GithubIcon} alt="" />
-                </a>
-              </div>
-            </div>
 
-            <div
-              className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url(" + reactiveCreditCard + ")" }}
-            >
-              <div className="overlay"></div>
-              <div className="portfolio__Projects--titreBox text text-center p-4">
-                <h3>
-                  <a href="https://meriemu.github.io/Reactive-Card-Reactjs/">
-                    Reactive credit card
-                  </a>
-                </h3>
-                <div className="portfolio__projects--tag">
-                  <span>html /</span>
-                  <span>css /</span>
-                  <span>Js /</span>
-                  <span>React</span>
-                </div>
-                <a
-                  href="https://github.com/Meriemu/Reactive-Card-Reactjs"
-                  className="portfolio__Projects--github"
-                >
-                  <img src={GithubIcon} alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-12">
-                <div
-                  className="project img portfolio-animate d-flex justify-content-center align-items-center"
-                  style={{ backgroundImage: "url(" + TikTakToe + ")" }}
-                >
-                  <div className="overlay"></div>
-                  <div className="portfolio__Projects--titreBox text text-center p-4">
-                    <h3>
-                      <a href="https://meriemu.github.io/tik-tak-toe-Reactjs/">
-                        Tik Tak Toe !
-                      </a>
-                    </h3>
-                    <div className="portfolio__projects--tag">
-                      <span>html /</span>
-                      <span>css /</span>
-                      <span>Js /</span>
-                      <span>React</span>
-                    </div>
-                    <a
-                      href="https://github.com/Meriemu/tik-tak-toe-Reactjs"
-                      className="portfolio__Projects--github"
-                    >
-                      <img src={GithubIcon} alt="" />
-                    </a>
+                <div className="card-body-content">
+                  <div className="tags-wrapper">
+                    {project.tags.map((tag, idx) => (
+                      <span className="cyber-tag" key={idx}>
+                        {tag}
+                      </span>
+                    ))}
                   </div>
-                </div>
-              </div>
-              <div className="col-md-12">
-                <div
-                  className="project img portfolio-animate d-flex justify-content-center align-items-center"
-                  style={{ backgroundImage: "url(" + DarkModeReact + ")" }}
-                >
-                  <div className="overlay"></div>
-                  <div className="portfolio__Projects--titreBox text text-center p-4">
-                    <h3>
-                      <a href="https://meriemu.github.io/Dark-mode-Reactjs/">
-                        Dark/Light Mode 🌙🔆
-                      </a>
-                    </h3>
-                    <div className="portfolio__projects--tag">
-                      <span>html /</span>
-                      <span>css /</span>
-                      <span>Js /</span>
-                      <span>React</span>
-                    </div>
+
+                  <h3 className="project-title">{project.title}</h3>
+
+                  <div className="actions-wrapper">
                     <a
-                      href="https://github.com/Meriemu/Dark-mode-Reactjs"
-                      className="portfolio__Projects--github"
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-cyber-demo"
                     >
-                      <img src={GithubIcon} alt="" />
+                      <span>Live Demo</span>
+                      <i
+                        className="icon-long-arrow-right"
+                        aria-hidden="true"
+                      ></i>
+                    </a>
+
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-cyber-github"
+                      aria-label={`GitHub source code for ${project.title}`}
+                    >
+                      <img src={GithubIcon} alt="" aria-hidden="true" />
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="col-md-4">
-            <div
-              className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url(" + ConvertToBTC + ")" }}
-            >
-              <div className="overlay"></div>
-              <div className="portfolio__Projects--titreBox text text-center p-4">
-                <h3>
-                  <a href="https://meriemu.github.io/Convert-bitcoin-to-euro-Reactjs/">
-                    BTC To EURO (AI)
-                  </a>
-                </h3>
-                <div className="portfolio__projects--tag">
-                  <span>html /</span>
-                  <span>css /</span>
-                  <span>Js /</span>
-                  <span>React /</span>
-                  <span>AI</span>
-                </div>
-                <a
-                  href="https://github.com/Meriemu/Convert-bitcoin-to-euro-Reactjs"
-                  className="portfolio__Projects--github"
-                >
-                  <img src={GithubIcon} alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-8">
-            <div
-              className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url(" + Weather + ")" }}
-            >
-              <div className="overlay"></div>
-              <div className="portfolio__Projects--titreBox text text-center p-4">
-                <h3>
-                  <a href="https://meriemu.github.io/Weather/">Weather</a>
-                </h3>
-                <div className="portfolio__projects--tag">
-                  <span>html /</span>
-                  <span>css /</span>
-                  <span>API /</span>
-                  <span>React</span>
-                </div>
-                <a
-                  href="https://github.com/Meriemu/Weather"
-                  className="portfolio__Projects--github"
-                >
-                  <img src={GithubIcon} alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-6">
-            <div
-              className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{ backgroundImage: "url(" + DetectFeeling + ")" }}
-            >
-              <div className="overlay"></div>
-              <div className="portfolio__Projects--titreBox text text-center p-4">
-                <h3>
-                  <a href="https://ai-feeling-reactjs.vercel.app/">
-                    Detect feelings (AI)
-                  </a>
-                </h3>
-                <div className="portfolio__projects--tag">
-                  <span>React /</span>
-                  <span>html /</span>
-                  <span>sass /</span>
-                  <span>API /</span>
-                  <span>AI /</span>
-                </div>
-                <a
-                  href="https://github.com/Meriemu/AI-Feeling-Reactjs"
-                  className="portfolio__Projects--github"
-                >
-                  <img src={GithubIcon} alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-6">
-            <div
-              className="project img portfolio-animate d-flex justify-content-center align-items-center"
-              style={{
-                backgroundImage: "url(" + RNTemperatureConverterPreview + ")",
-              }}
-            >
-              <div className="overlay"></div>
-              <div className="portfolio__Projects--titreBox text text-center p-4">
-                <h3>
-                  <a
-                    href="https://rn-temperature-converter--rvjpbvtjyp.expo.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    React Native Temperature Converter (mobile)
-                  </a>
-                </h3>
-                <div className="portfolio__projects--tag">
-                  <span>React Native/</span>
-                  <span>Expo/</span>
-                  <span>TypeScript/</span>
-                  <span>Mobile App</span>
-                </div>
-                <a
-                  href="https://github.com/Meriemu/RN-temperature-converter"
-                  className="portfolio__Projects--github"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={GithubIcon} alt="GitHub repo" />
-                </a>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

@@ -1,0 +1,151 @@
+/* ==========================================================================
+   DESIGN PROJETS "CYBER GRID" (EFFET EXPLOSIF)
+   ========================================================================== */
+$font-primary: "Poppins", Arial, sans-serif;
+
+$white: #fff;
+$black: #000000;
+$darken: #232931;
+
+$primary: #990234;
+$secondary: #a0f669;
+
+.projects-section-cyber {
+  .project-cyber-card {
+    position: relative;
+    background: rgba(18, 18, 18, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+    .card-media {
+      position: relative;
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+        transition: transform 0.5s ease;
+      }
+
+      .card-media-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0) 30%,
+          rgba(18, 18, 18, 0.95) 100%
+        );
+      }
+    }
+
+    .card-body-content {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+
+      .tags-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 12px;
+
+        .cyber-tag {
+          font-size: 0.7rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          padding: 3px 10px;
+          border-radius: 20px;
+          background: rgba(153, 2, 52, 0.15);
+          color: #ff4d7d;
+          border: 1px solid rgba(153, 2, 52, 0.3);
+        }
+      }
+
+      .project-title {
+        font-size: 1.25rem !important;
+        font-weight: 700 !important;
+        color: #ffffff !important;
+        margin-bottom: 1.25rem;
+        line-height: 1.3;
+      }
+
+      .actions-wrapper {
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+
+        .btn-cyber-demo {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          background: $primary;
+          color: #ffffff !important;
+          padding: 8px 18px;
+          border-radius: 30px;
+          font-size: 0.8rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 15px rgba(153, 2, 52, 0.4);
+
+          &:hover {
+            background: lighten($primary, 8%);
+            transform: translateX(3px);
+            box-shadow: 0 6px 20px rgba(153, 2, 52, 0.7);
+          }
+        }
+
+        .btn-cyber-github {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.08);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.3s ease;
+
+          img {
+            width: 20px;
+            height: 20px;
+            filter: invert(0.5);
+          }
+
+          &:hover {
+            background: #3c2d2d;
+            transform: rotate(360deg);
+
+            img {
+              filter: invert(0);
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      border-color: rgba(153, 2, 52, 0.5);
+      box-shadow: 0 15px 35px rgba(153, 2, 52, 0.25);
+
+      .card-media img {
+        transform: scale(1.08);
+      }
+    }
+  }
+}

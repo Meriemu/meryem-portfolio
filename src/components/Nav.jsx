@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import {Navbar, Nav} from "react-bootstrap";
 
 const Navigation = () => {
   return (
@@ -14,11 +14,6 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="portfolio-nav" />
         <Navbar.Collapse id="portfolio-nav">
           <Nav className="ml-auto nav">
-            {/* <li className="nav-item">
-              <Nav.Link href="#home-section" className="nav-link">
-                <span>Home</span>
-              </Nav.Link>
-            </li> */}
             <li className="nav-item">
               <Nav.Link href="#about-section">
                 <span>About</span>

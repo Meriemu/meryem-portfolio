@@ -2,6 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import PhotoMeryem1 from "../images/personnage_meryem_2.png";
 import PhotoMeryem2 from "../images/personnage_meryem_4.png";
+import "../styles/hero.scss";
 
 const Hero = () => {
   const heroSlider = [
@@ -11,7 +12,7 @@ const Hero = () => {
       img: PhotoMeryem1,
     },
     {
-      name: "Front developer",
+      name: "Front-End developer",
       job: "",
       img: PhotoMeryem2,
       city: "France",
@@ -60,7 +61,9 @@ const Hero = () => {
                   data-scrollax-parent="true"
                 >
                   <div className="one-third js-fullheight order-md-last img">
-                    <img alt="" className="img-circle" src={val.img} />
+                    <div className="hero-avatar-wrapper">
+                      <img alt="" className="img-circle" src={val.img} />
+                    </div>
                     <div className="overlay"></div>
                   </div>
                   <div

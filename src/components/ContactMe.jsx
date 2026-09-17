@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
-import Enveloppe from "../images/enveloppe_1.jpeg";
+import Enveloppe from "../images/enveloppe_3.jpeg";
 import config from "../config";
 
 const ContactMe = () => {
@@ -45,7 +45,9 @@ const ContactMe = () => {
           <div className="col-md-7 heading-section text-center portfolio-animate">
             <h1 className="big big-2">Contact</h1>
             <h2 className="mb-4">Contact me</h2>
-            <p>Get in touch to discuss projects or opportunities.</p>
+            <p className="subheading">
+              Get in touch to discuss projects or opportunities.
+            </p>
           </div>
         </div>
 
@@ -93,10 +95,7 @@ const ContactMe = () => {
 
         <div className="row no-gutters block-9">
           <div className="col-md-6 order-md-last d-flex">
-            <form
-              onSubmit={handleSubmit}
-              className="bg-light p-4 p-md-5 contact-form"
-            >
+            <form onSubmit={handleSubmit} className="p-4 p-md-5 contact-form">
               <div className="mb-3">
                 <label htmlFor="contact-name">Name</label>
                 <input
